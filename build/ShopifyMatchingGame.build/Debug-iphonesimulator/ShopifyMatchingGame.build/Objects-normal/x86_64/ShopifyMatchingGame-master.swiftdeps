@@ -1,6 +1,7 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "d1ccaecf23aa19b1eb2954ef2c918901"
-build_time: [1577952511, 618102000]
+build_time: [1578139129, 35283000]
 inputs:
-  "/Users/admin/Desktop/ShopifyMatchingGame/ShopifyMatchingGame/ViewController.swift": [1577952511, 498305620]
-  "/Users/admin/Desktop/ShopifyMatchingGame/ShopifyMatchingGame/AppDelegate.swift": [1577952511, 532502262]
+  "/Users/admin/Desktop/ShopifyMatchingGame/ShopifyMatchingGame/Response.swift": [1578139009, 238080042]
+  "/Users/admin/Desktop/ShopifyMatchingGame/ShopifyMatchingGame/ViewController.swift": [1578139128, 930464832]
+  "/Users/admin/Desktop/ShopifyMatchingGame/ShopifyMatchingGame/AppDelegate.swift": [1577952857, 364936394]

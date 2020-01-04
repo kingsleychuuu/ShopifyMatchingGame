@@ -1,0 +1,961 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Response"
+- "Product"
+- "Image"
+- "Option"
+- "Name"
+- "PublishedScope"
+- "Variant"
+- "FulfillmentService"
+- "InventoryPolicy"
+- "WeightUnit"
+- "JSONNull"
+- "JSONCodingKey"
+- "JSONAny"
+- "=="
+provides-nominal:
+- "19ShopifyMatchingGame8ResponseV"
+- "19ShopifyMatchingGame7ProductV"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame4NameO"
+- "19ShopifyMatchingGame14PublishedScopeO"
+- "19ShopifyMatchingGame7VariantV"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame18FulfillmentServiceO"
+- "19ShopifyMatchingGame15InventoryPolicyO"
+- "19ShopifyMatchingGame10WeightUnitO"
+- "19ShopifyMatchingGame8JSONNullC"
+- "19ShopifyMatchingGame13JSONCodingKeyC"
+- "19ShopifyMatchingGame7JSONAnyC"
+provides-member:
+- ["19ShopifyMatchingGame8ResponseV", ""]
+- ["19ShopifyMatchingGame7ProductV", ""]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", ""]
+- ["19ShopifyMatchingGame5ImageV", ""]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", ""]
+- ["19ShopifyMatchingGame6OptionV", ""]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", ""]
+- ["19ShopifyMatchingGame4NameO", ""]
+- ["19ShopifyMatchingGame14PublishedScopeO", ""]
+- ["19ShopifyMatchingGame7VariantV", ""]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", ""]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", ""]
+- ["19ShopifyMatchingGame15InventoryPolicyO", ""]
+- ["19ShopifyMatchingGame10WeightUnitO", ""]
+- ["19ShopifyMatchingGame8JSONNullC", ""]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", ""]
+- ["19ShopifyMatchingGame7JSONAnyC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "DecodingError"
+- "Double"
+- "Encoder"
+- "EncodingError"
+- !private "FloatLiteralType"
+- "FulfillmentService"
+- "Hashable"
+- "Image"
+- "Int"
+- !private "Int64"
+- !private "IntegerLiteralType"
+- "InventoryPolicy"
+- "JSONAny"
+- "JSONCodingKey"
+- "JSONNull"
+- "KeyedDecodingContainer"
+- "KeyedEncodingContainer"
+- "Name"
+- "Option"
+- "Product"
+- "PublishedScope"
+- "Response"
+- "SingleValueDecodingContainer"
+- "SingleValueEncodingContainer"
+- "String"
+- "StringLiteralType"
+- "UnkeyedDecodingContainer"
+- "UnkeyedEncodingContainer"
+- "Variant"
+- "WeightUnit"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "key"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "=="]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "=="]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "=="]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "=="]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "RawValue"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "RawValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "RawValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "RawValue"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "_Default_RawValue"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "_Default_RawValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "_Default_RawValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "_Default_RawValue"]
+- !private ["19ShopifyMatchingGame5ImageV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["19ShopifyMatchingGame6OptionV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["19ShopifyMatchingGame7ProductV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["19ShopifyMatchingGame7VariantV10CodingKeysO", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "_rawHashValue"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "_rawHashValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "_rawHashValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "_rawHashValue"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "adminGraphqlAPIID"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "adminGraphqlAPIID"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "adminGraphqlAPIID"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "alt"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "barcode"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "bodyHTML"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "compareAtPrice"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "createdAt"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "createdAt"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "createdAt"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "debugDescription"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "debugDescription"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "debugDescription"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "debugDescription"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "deinit"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "deinit"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "deinit"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "deinit"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "description"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "description"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "description"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "description"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "fulfillmentService"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "grams"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "handle"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "hash"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "hash"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "hash"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "hash"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "hashValue"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "hashValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "hashValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "hashValue"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "height"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "id"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "id"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "id"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "id"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "image"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "imageID"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "images"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "init"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "init"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "init"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "init"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "intValue"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "intValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "intValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "intValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "inventoryItemID"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "inventoryManagement"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "inventoryPolicy"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "inventoryQuantity"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "name"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "oldInventoryQuantity"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "option1"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "option2"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "option3"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "options"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "position"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "position"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "position"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "price"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "productID"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "productID"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "productID"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "productType"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "publishedAt"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "publishedScope"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "rawValue"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "rawValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "rawValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "rawValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "requiresShipping"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "sku"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "src"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "stringValue"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "stringValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "stringValue"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "stringValue"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "tags"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "taxable"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "templateSuffix"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "title"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "title"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "updatedAt"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "updatedAt"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "updatedAt"]
+- ["19ShopifyMatchingGame6OptionV10CodingKeysO", "values"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "variantIDS"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "variants"]
+- ["19ShopifyMatchingGame7ProductV10CodingKeysO", "vendor"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "weight"]
+- ["19ShopifyMatchingGame7VariantV10CodingKeysO", "weightUnit"]
+- ["19ShopifyMatchingGame5ImageV10CodingKeysO", "width"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s13EncodingErrorO7ContextV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["Se", "=="]
+- !private ["Se", "Bool"]
+- !private ["Se", "DecodingError"]
+- !private ["Se", "Double"]
+- !private ["Se", "EncodingError"]
+- !private ["Se", "Int64"]
+- !private ["Se", "JSONAny"]
+- !private ["Se", "JSONCodingKey"]
+- !private ["Se", "JSONNull"]
+- ["Se", "RawValue"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "adminGraphqlAPIID"]
+- !private ["Se", "alt"]
+- !private ["Se", "append"]
+- !private ["Se", "barcode"]
+- !private ["Se", "bodyHTML"]
+- !private ["Se", "compareAtPrice"]
+- !private ["Se", "createdAt"]
+- !private ["Se", "decode"]
+- !private ["Se", "decodeArray"]
+- !private ["Se", "decodeDictionary"]
+- !private ["Se", "decodingError"]
+- ["Se", "encode"]
+- !private ["Se", "encodingError"]
+- !private ["Se", "fulfillmentService"]
+- !private ["Se", "grams"]
+- !private ["Se", "handle"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "height"]
+- !private ["Se", "id"]
+- !private ["Se", "image"]
+- !private ["Se", "imageID"]
+- !private ["Se", "images"]
+- ["Se", "init"]
+- !private ["Se", "inventoryItemID"]
+- !private ["Se", "inventoryManagement"]
+- !private ["Se", "inventoryPolicy"]
+- !private ["Se", "inventoryQuantity"]
+- !private ["Se", "name"]
+- !private ["Se", "oldInventoryQuantity"]
+- !private ["Se", "option1"]
+- !private ["Se", "option2"]
+- !private ["Se", "option3"]
+- !private ["Se", "options"]
+- !private ["Se", "position"]
+- !private ["Se", "price"]
+- !private ["Se", "productID"]
+- !private ["Se", "productType"]
+- !private ["Se", "products"]
+- !private ["Se", "publishedAt"]
+- !private ["Se", "publishedScope"]
+- ["Se", "rawValue"]
+- !private ["Se", "requiresShipping"]
+- !private ["Se", "sku"]
+- !private ["Se", "src"]
+- !private ["Se", "subscript"]
+- !private ["Se", "tags"]
+- !private ["Se", "taxable"]
+- !private ["Se", "templateSuffix"]
+- !private ["Se", "title"]
+- !private ["Se", "updatedAt"]
+- !private ["Se", "value"]
+- !private ["Se", "values"]
+- !private ["Se", "variantIDS"]
+- !private ["Se", "variants"]
+- !private ["Se", "vendor"]
+- !private ["Se", "weight"]
+- !private ["Se", "weightUnit"]
+- !private ["Se", "width"]
+- !private ["s7DecoderP", "codingPath"]
+- !private ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- !private ["s7DecoderP", "unkeyedContainer"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "=="]
+- !private ["SE", "Bool"]
+- !private ["SE", "DecodingError"]
+- !private ["SE", "Double"]
+- !private ["SE", "EncodingError"]
+- !private ["SE", "Int64"]
+- !private ["SE", "JSONAny"]
+- !private ["SE", "JSONCodingKey"]
+- !private ["SE", "JSONNull"]
+- ["SE", "RawValue"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "adminGraphqlAPIID"]
+- !private ["SE", "alt"]
+- !private ["SE", "append"]
+- !private ["SE", "barcode"]
+- !private ["SE", "bodyHTML"]
+- !private ["SE", "compareAtPrice"]
+- !private ["SE", "createdAt"]
+- !private ["SE", "decode"]
+- !private ["SE", "decodeArray"]
+- !private ["SE", "decodeDictionary"]
+- !private ["SE", "decodingError"]
+- ["SE", "encode"]
+- !private ["SE", "encodingError"]
+- !private ["SE", "fulfillmentService"]
+- !private ["SE", "grams"]
+- !private ["SE", "handle"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "height"]
+- !private ["SE", "id"]
+- !private ["SE", "image"]
+- !private ["SE", "imageID"]
+- !private ["SE", "images"]
+- ["SE", "init"]
+- !private ["SE", "inventoryItemID"]
+- !private ["SE", "inventoryManagement"]
+- !private ["SE", "inventoryPolicy"]
+- !private ["SE", "inventoryQuantity"]
+- !private ["SE", "name"]
+- !private ["SE", "oldInventoryQuantity"]
+- !private ["SE", "option1"]
+- !private ["SE", "option2"]
+- !private ["SE", "option3"]
+- !private ["SE", "options"]
+- !private ["SE", "position"]
+- !private ["SE", "price"]
+- !private ["SE", "productID"]
+- !private ["SE", "productType"]
+- !private ["SE", "products"]
+- !private ["SE", "publishedAt"]
+- !private ["SE", "publishedScope"]
+- ["SE", "rawValue"]
+- !private ["SE", "requiresShipping"]
+- !private ["SE", "sku"]
+- !private ["SE", "src"]
+- !private ["SE", "subscript"]
+- !private ["SE", "tags"]
+- !private ["SE", "taxable"]
+- !private ["SE", "templateSuffix"]
+- !private ["SE", "title"]
+- !private ["SE", "updatedAt"]
+- !private ["SE", "value"]
+- !private ["SE", "values"]
+- !private ["SE", "variantIDS"]
+- !private ["SE", "variants"]
+- !private ["SE", "vendor"]
+- !private ["SE", "weight"]
+- !private ["SE", "weightUnit"]
+- !private ["SE", "width"]
+- !private ["s7EncoderP", "container"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["s7EncoderP", "unkeyedContainer"]
+- !private ["s13EncodingErrorO", "Context"]
+- !private ["s13EncodingErrorO", "invalidValue"]
+- ["SQ", "=="]
+- !private ["SQ", "DecodingError"]
+- !private ["SQ", "JSONNull"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "invalidValue"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "=="]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "RawValue"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "_Default_RawValue"]
+- !private ["19ShopifyMatchingGame18FulfillmentServiceO", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "_rawHashValue"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "deinit"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "encode"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "hash"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "hashValue"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "init"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "manual"]
+- ["19ShopifyMatchingGame18FulfillmentServiceO", "rawValue"]
+- ["SH", "=="]
+- !private ["SH", "DecodingError"]
+- !private ["SH", "JSONNull"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["s6HasherV", "combine"]
+- ["19ShopifyMatchingGame5ImageV", "CodingKey"]
+- ["19ShopifyMatchingGame5ImageV", "CodingKeys"]
+- ["19ShopifyMatchingGame5ImageV", "Int"]
+- ["19ShopifyMatchingGame5ImageV", "JSONAny"]
+- ["19ShopifyMatchingGame5ImageV", "JSONNull"]
+- ["19ShopifyMatchingGame5ImageV", "String"]
+- !private ["19ShopifyMatchingGame5ImageV", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame5ImageV", "adminGraphqlAPIID"]
+- ["19ShopifyMatchingGame5ImageV", "alt"]
+- ["19ShopifyMatchingGame5ImageV", "createdAt"]
+- ["19ShopifyMatchingGame5ImageV", "deinit"]
+- ["19ShopifyMatchingGame5ImageV", "encode"]
+- ["19ShopifyMatchingGame5ImageV", "height"]
+- ["19ShopifyMatchingGame5ImageV", "id"]
+- ["19ShopifyMatchingGame5ImageV", "init"]
+- ["19ShopifyMatchingGame5ImageV", "position"]
+- ["19ShopifyMatchingGame5ImageV", "productID"]
+- ["19ShopifyMatchingGame5ImageV", "src"]
+- ["19ShopifyMatchingGame5ImageV", "updatedAt"]
+- ["19ShopifyMatchingGame5ImageV", "variantIDS"]
+- ["19ShopifyMatchingGame5ImageV", "width"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "=="]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "RawValue"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "_Default_RawValue"]
+- !private ["19ShopifyMatchingGame15InventoryPolicyO", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "_rawHashValue"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "deinit"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "deny"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "encode"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "hash"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "hashValue"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "init"]
+- ["19ShopifyMatchingGame15InventoryPolicyO", "rawValue"]
+- !private ["19ShopifyMatchingGame7JSONAnyC", "Bool"]
+- ["19ShopifyMatchingGame7JSONAnyC", "CodingKey"]
+- ["19ShopifyMatchingGame7JSONAnyC", "Decoder"]
+- ["19ShopifyMatchingGame7JSONAnyC", "DecodingError"]
+- !private ["19ShopifyMatchingGame7JSONAnyC", "Double"]
+- ["19ShopifyMatchingGame7JSONAnyC", "Encoder"]
+- ["19ShopifyMatchingGame7JSONAnyC", "EncodingError"]
+- !private ["19ShopifyMatchingGame7JSONAnyC", "Int64"]
+- !private ["19ShopifyMatchingGame7JSONAnyC", "JSONAny"]
+- ["19ShopifyMatchingGame7JSONAnyC", "JSONCodingKey"]
+- !private ["19ShopifyMatchingGame7JSONAnyC", "JSONNull"]
+- ["19ShopifyMatchingGame7JSONAnyC", "KeyedDecodingContainer"]
+- ["19ShopifyMatchingGame7JSONAnyC", "KeyedEncodingContainer"]
+- ["19ShopifyMatchingGame7JSONAnyC", "SingleValueDecodingContainer"]
+- ["19ShopifyMatchingGame7JSONAnyC", "SingleValueEncodingContainer"]
+- ["19ShopifyMatchingGame7JSONAnyC", "String"]
+- ["19ShopifyMatchingGame7JSONAnyC", "UnkeyedDecodingContainer"]
+- ["19ShopifyMatchingGame7JSONAnyC", "UnkeyedEncodingContainer"]
+- ["19ShopifyMatchingGame7JSONAnyC", "decode"]
+- ["19ShopifyMatchingGame7JSONAnyC", "decodeArray"]
+- ["19ShopifyMatchingGame7JSONAnyC", "decodeDictionary"]
+- ["19ShopifyMatchingGame7JSONAnyC", "decodingError"]
+- ["19ShopifyMatchingGame7JSONAnyC", "deinit"]
+- ["19ShopifyMatchingGame7JSONAnyC", "encode"]
+- ["19ShopifyMatchingGame7JSONAnyC", "encodingError"]
+- ["19ShopifyMatchingGame7JSONAnyC", "init"]
+- ["19ShopifyMatchingGame7JSONAnyC", "value"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "Int"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "String"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "debugDescription"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "deinit"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "description"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "init"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "intValue"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "key"]
+- ["19ShopifyMatchingGame13JSONCodingKeyC", "stringValue"]
+- ["19ShopifyMatchingGame8JSONNullC", "=="]
+- ["19ShopifyMatchingGame8JSONNullC", "Bool"]
+- ["19ShopifyMatchingGame8JSONNullC", "Decoder"]
+- !private ["19ShopifyMatchingGame8JSONNullC", "DecodingError"]
+- ["19ShopifyMatchingGame8JSONNullC", "Encoder"]
+- ["19ShopifyMatchingGame8JSONNullC", "Int"]
+- ["19ShopifyMatchingGame8JSONNullC", "JSONNull"]
+- ["19ShopifyMatchingGame8JSONNullC", "_rawHashValue"]
+- ["19ShopifyMatchingGame8JSONNullC", "deinit"]
+- ["19ShopifyMatchingGame8JSONNullC", "encode"]
+- ["19ShopifyMatchingGame8JSONNullC", "hash"]
+- ["19ShopifyMatchingGame8JSONNullC", "hashValue"]
+- ["19ShopifyMatchingGame8JSONNullC", "init"]
+- !private ["s22KeyedDecodingContainerV", "allKeys"]
+- !private ["s22KeyedDecodingContainerV", "codingPath"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s22KeyedDecodingContainerV", "decodeNil"]
+- !private ["s22KeyedDecodingContainerV", "nestedContainer"]
+- !private ["s22KeyedDecodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- !private ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["s22KeyedEncodingContainerV", "codingPath"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeNil"]
+- !private ["s22KeyedEncodingContainerV", "nestedContainer"]
+- !private ["s22KeyedEncodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "invalidValue"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["19ShopifyMatchingGame4NameO", "=="]
+- ["19ShopifyMatchingGame4NameO", "RawValue"]
+- ["19ShopifyMatchingGame4NameO", "_Default_RawValue"]
+- !private ["19ShopifyMatchingGame4NameO", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame4NameO", "_rawHashValue"]
+- ["19ShopifyMatchingGame4NameO", "deinit"]
+- ["19ShopifyMatchingGame4NameO", "encode"]
+- ["19ShopifyMatchingGame4NameO", "hash"]
+- ["19ShopifyMatchingGame4NameO", "hashValue"]
+- ["19ShopifyMatchingGame4NameO", "init"]
+- ["19ShopifyMatchingGame4NameO", "rawValue"]
+- ["19ShopifyMatchingGame4NameO", "title"]
+- ["19ShopifyMatchingGame6OptionV", "CodingKey"]
+- ["19ShopifyMatchingGame6OptionV", "CodingKeys"]
+- ["19ShopifyMatchingGame6OptionV", "Int"]
+- ["19ShopifyMatchingGame6OptionV", "Name"]
+- ["19ShopifyMatchingGame6OptionV", "String"]
+- !private ["19ShopifyMatchingGame6OptionV", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame6OptionV", "deinit"]
+- ["19ShopifyMatchingGame6OptionV", "encode"]
+- ["19ShopifyMatchingGame6OptionV", "id"]
+- ["19ShopifyMatchingGame6OptionV", "init"]
+- ["19ShopifyMatchingGame6OptionV", "name"]
+- ["19ShopifyMatchingGame6OptionV", "position"]
+- ["19ShopifyMatchingGame6OptionV", "productID"]
+- ["19ShopifyMatchingGame6OptionV", "values"]
+- ["19ShopifyMatchingGame7ProductV", "CodingKey"]
+- ["19ShopifyMatchingGame7ProductV", "CodingKeys"]
+- ["19ShopifyMatchingGame7ProductV", "Image"]
+- ["19ShopifyMatchingGame7ProductV", "Int"]
+- ["19ShopifyMatchingGame7ProductV", "JSONNull"]
+- ["19ShopifyMatchingGame7ProductV", "Option"]
+- ["19ShopifyMatchingGame7ProductV", "PublishedScope"]
+- ["19ShopifyMatchingGame7ProductV", "String"]
+- ["19ShopifyMatchingGame7ProductV", "Variant"]
+- !private ["19ShopifyMatchingGame7ProductV", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame7ProductV", "adminGraphqlAPIID"]
+- ["19ShopifyMatchingGame7ProductV", "bodyHTML"]
+- ["19ShopifyMatchingGame7ProductV", "createdAt"]
+- ["19ShopifyMatchingGame7ProductV", "deinit"]
+- ["19ShopifyMatchingGame7ProductV", "encode"]
+- ["19ShopifyMatchingGame7ProductV", "handle"]
+- ["19ShopifyMatchingGame7ProductV", "id"]
+- ["19ShopifyMatchingGame7ProductV", "image"]
+- ["19ShopifyMatchingGame7ProductV", "images"]
+- ["19ShopifyMatchingGame7ProductV", "init"]
+- ["19ShopifyMatchingGame7ProductV", "options"]
+- ["19ShopifyMatchingGame7ProductV", "productType"]
+- ["19ShopifyMatchingGame7ProductV", "publishedAt"]
+- ["19ShopifyMatchingGame7ProductV", "publishedScope"]
+- ["19ShopifyMatchingGame7ProductV", "tags"]
+- ["19ShopifyMatchingGame7ProductV", "templateSuffix"]
+- ["19ShopifyMatchingGame7ProductV", "title"]
+- ["19ShopifyMatchingGame7ProductV", "updatedAt"]
+- ["19ShopifyMatchingGame7ProductV", "variants"]
+- ["19ShopifyMatchingGame7ProductV", "vendor"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "=="]
+- ["19ShopifyMatchingGame14PublishedScopeO", "RawValue"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "_Default_RawValue"]
+- !private ["19ShopifyMatchingGame14PublishedScopeO", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "_rawHashValue"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "deinit"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "encode"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "hash"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "hashValue"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "init"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "rawValue"]
+- ["19ShopifyMatchingGame14PublishedScopeO", "web"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "encode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["19ShopifyMatchingGame8ResponseV", "Product"]
+- ["19ShopifyMatchingGame8ResponseV", "deinit"]
+- ["19ShopifyMatchingGame8ResponseV", "encode"]
+- ["19ShopifyMatchingGame8ResponseV", "init"]
+- ["19ShopifyMatchingGame8ResponseV", "products"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s28SingleValueDecodingContainerP", "codingPath"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "codingPath"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["s28SingleValueEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "codingPath"]
+- !private ["s24UnkeyedDecodingContainerP", "decode"]
+- !private ["s24UnkeyedDecodingContainerP", "decodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "isAtEnd"]
+- !private ["s24UnkeyedDecodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "nestedUnkeyedContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "codingPath"]
+- !private ["s24UnkeyedEncodingContainerP", "encode"]
+- !private ["s24UnkeyedEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedEncodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "nestedUnkeyedContainer"]
+- ["19ShopifyMatchingGame7VariantV", "Bool"]
+- ["19ShopifyMatchingGame7VariantV", "CodingKey"]
+- ["19ShopifyMatchingGame7VariantV", "CodingKeys"]
+- ["19ShopifyMatchingGame7VariantV", "Double"]
+- ["19ShopifyMatchingGame7VariantV", "FulfillmentService"]
+- ["19ShopifyMatchingGame7VariantV", "Int"]
+- ["19ShopifyMatchingGame7VariantV", "InventoryPolicy"]
+- ["19ShopifyMatchingGame7VariantV", "JSONNull"]
+- ["19ShopifyMatchingGame7VariantV", "String"]
+- ["19ShopifyMatchingGame7VariantV", "WeightUnit"]
+- !private ["19ShopifyMatchingGame7VariantV", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame7VariantV", "adminGraphqlAPIID"]
+- ["19ShopifyMatchingGame7VariantV", "barcode"]
+- ["19ShopifyMatchingGame7VariantV", "compareAtPrice"]
+- ["19ShopifyMatchingGame7VariantV", "createdAt"]
+- ["19ShopifyMatchingGame7VariantV", "deinit"]
+- ["19ShopifyMatchingGame7VariantV", "encode"]
+- ["19ShopifyMatchingGame7VariantV", "fulfillmentService"]
+- ["19ShopifyMatchingGame7VariantV", "grams"]
+- ["19ShopifyMatchingGame7VariantV", "id"]
+- ["19ShopifyMatchingGame7VariantV", "imageID"]
+- ["19ShopifyMatchingGame7VariantV", "init"]
+- ["19ShopifyMatchingGame7VariantV", "inventoryItemID"]
+- ["19ShopifyMatchingGame7VariantV", "inventoryManagement"]
+- ["19ShopifyMatchingGame7VariantV", "inventoryPolicy"]
+- ["19ShopifyMatchingGame7VariantV", "inventoryQuantity"]
+- ["19ShopifyMatchingGame7VariantV", "oldInventoryQuantity"]
+- ["19ShopifyMatchingGame7VariantV", "option1"]
+- ["19ShopifyMatchingGame7VariantV", "option2"]
+- ["19ShopifyMatchingGame7VariantV", "option3"]
+- ["19ShopifyMatchingGame7VariantV", "position"]
+- ["19ShopifyMatchingGame7VariantV", "price"]
+- ["19ShopifyMatchingGame7VariantV", "productID"]
+- ["19ShopifyMatchingGame7VariantV", "requiresShipping"]
+- ["19ShopifyMatchingGame7VariantV", "sku"]
+- ["19ShopifyMatchingGame7VariantV", "taxable"]
+- ["19ShopifyMatchingGame7VariantV", "title"]
+- ["19ShopifyMatchingGame7VariantV", "updatedAt"]
+- ["19ShopifyMatchingGame7VariantV", "weight"]
+- ["19ShopifyMatchingGame7VariantV", "weightUnit"]
+- ["19ShopifyMatchingGame10WeightUnitO", "=="]
+- ["19ShopifyMatchingGame10WeightUnitO", "RawValue"]
+- ["19ShopifyMatchingGame10WeightUnitO", "_Default_RawValue"]
+- !private ["19ShopifyMatchingGame10WeightUnitO", "_findStringSwitchCase"]
+- ["19ShopifyMatchingGame10WeightUnitO", "_rawHashValue"]
+- ["19ShopifyMatchingGame10WeightUnitO", "deinit"]
+- ["19ShopifyMatchingGame10WeightUnitO", "encode"]
+- ["19ShopifyMatchingGame10WeightUnitO", "hash"]
+- ["19ShopifyMatchingGame10WeightUnitO", "hashValue"]
+- ["19ShopifyMatchingGame10WeightUnitO", "init"]
+- ["19ShopifyMatchingGame10WeightUnitO", "kg"]
+- ["19ShopifyMatchingGame10WeightUnitO", "rawValue"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- !private "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- !private "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- !private "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- !private "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame6OptionV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- "19ShopifyMatchingGame7ProductV10CodingKeysO"
+- "19ShopifyMatchingGame7VariantV10CodingKeysO"
+- "19ShopifyMatchingGame5ImageV10CodingKeysO"
+- !private "Sl"
+- !private "s13DecodingErrorO7ContextV"
+- !private "s13EncodingErrorO7ContextV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- !private "s13EncodingErrorO"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "19ShopifyMatchingGame18FulfillmentServiceO"
+- "SH"
+- !private "s6HasherV"
+- "19ShopifyMatchingGame5ImageV"
+- "19ShopifyMatchingGame15InventoryPolicyO"
+- "19ShopifyMatchingGame7JSONAnyC"
+- "19ShopifyMatchingGame13JSONCodingKeyC"
+- "19ShopifyMatchingGame8JSONNullC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "19ShopifyMatchingGame4NameO"
+- "19ShopifyMatchingGame6OptionV"
+- "19ShopifyMatchingGame7ProductV"
+- "19ShopifyMatchingGame14PublishedScopeO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "19ShopifyMatchingGame8ResponseV"
+- !private "ST"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "s24UnkeyedDecodingContainerP"
+- !private "s24UnkeyedEncodingContainerP"
+- "19ShopifyMatchingGame7VariantV"
+- "19ShopifyMatchingGame10WeightUnitO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cd7e3600e56e730fe3d2c8f78602f9bf"
