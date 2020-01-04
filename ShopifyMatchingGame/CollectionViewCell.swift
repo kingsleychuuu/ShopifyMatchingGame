@@ -28,6 +28,14 @@ class CollectionViewCell: UICollectionViewCell {
         return label
     }()
     
+    var mysteryLabel: UILabel = {
+        var label = UILabel()
+        label.text = "?"
+        label.font = UIFont.systemFont(ofSize: 20)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupCellConstraints()
@@ -44,11 +52,17 @@ class CollectionViewCell: UICollectionViewCell {
         image.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         image.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
         image.heightAnchor.constraint(equalTo: widthAnchor).isActive = true
+        image.isHidden = true
         addSubview(title)
         title.topAnchor.constraint(equalTo: image.bottomAnchor).isActive = true
         title.leftAnchor.constraint(equalTo: leftAnchor, constant: 2).isActive = true
         title.rightAnchor.constraint(equalTo: rightAnchor, constant: -2).isActive = true
         title.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
+        title.isHidden = true
+        addSubview(mysteryLabel)
+        mysteryLabel.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        mysteryLabel.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        mysteryLabel.isHidden = false
     }
     
     func setupImageView() {

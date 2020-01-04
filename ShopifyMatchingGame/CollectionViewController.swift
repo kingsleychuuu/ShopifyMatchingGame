@@ -31,7 +31,6 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         cell.layer.shadowOffset = .zero
         cell.layer.shadowRadius = 3
         cell.title.text = products[indexPath.row].title
-        
         let imageURL = URL(string: products[indexPath.row].image.src)
         do {
             let imageData = try Data(contentsOf: imageURL!)
@@ -57,7 +56,17 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         UIView.transition(with: collectionView.cellForItem(at: indexPath)!, duration: 0.5, options: UIView.AnimationOptions.transitionFlipFromLeft, animations: { () -> Void in
-            //do something
+            let cell = collectionView.cellForItem(at: indexPath) as! CollectionViewCell
+            if cell.mysteryLabel.isHidden {
+                cell.mysteryLabel.isHidden = false
+                cell.image.isHidden = true
+                cell.title.isHidden = true
+            } else {
+                cell.mysteryLabel.isHidden = true
+                cell.image.isHidden = false
+                cell.title.isHidden = false
+            }
+            //
         }, completion: nil)
     }
     
