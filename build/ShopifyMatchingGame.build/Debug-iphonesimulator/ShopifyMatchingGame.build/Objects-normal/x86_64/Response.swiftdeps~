@@ -60,7 +60,6 @@ depends-top-level:
 - "CastingPrecedence"
 - "Codable"
 - "CodingKey"
-- "Date"
 - "Decoder"
 - "DecodingError"
 - "Double"
@@ -494,7 +493,6 @@ depends-member:
 - !private ["s6HasherV", "combine"]
 - ["19ShopifyMatchingGame5ImageV", "CodingKey"]
 - ["19ShopifyMatchingGame5ImageV", "CodingKeys"]
-- ["19ShopifyMatchingGame5ImageV", "Date"]
 - ["19ShopifyMatchingGame5ImageV", "Int"]
 - ["19ShopifyMatchingGame5ImageV", "JSONAny"]
 - ["19ShopifyMatchingGame5ImageV", "JSONNull"]
@@ -634,7 +632,6 @@ depends-member:
 - ["19ShopifyMatchingGame6OptionV", "values"]
 - ["19ShopifyMatchingGame7ProductV", "CodingKey"]
 - ["19ShopifyMatchingGame7ProductV", "CodingKeys"]
-- ["19ShopifyMatchingGame7ProductV", "Date"]
 - ["19ShopifyMatchingGame7ProductV", "Image"]
 - ["19ShopifyMatchingGame7ProductV", "Int"]
 - ["19ShopifyMatchingGame7ProductV", "JSONNull"]
@@ -720,7 +717,6 @@ depends-member:
 - ["19ShopifyMatchingGame7VariantV", "Bool"]
 - ["19ShopifyMatchingGame7VariantV", "CodingKey"]
 - ["19ShopifyMatchingGame7VariantV", "CodingKeys"]
-- ["19ShopifyMatchingGame7VariantV", "Date"]
 - ["19ShopifyMatchingGame7VariantV", "Double"]
 - ["19ShopifyMatchingGame7VariantV", "FulfillmentService"]
 - ["19ShopifyMatchingGame7VariantV", "Int"]
@@ -962,4 +958,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b2dccc4fedc12c824fc584b36b461361"
+interface-hash: "cd7e3600e56e730fe3d2c8f78602f9bf"
