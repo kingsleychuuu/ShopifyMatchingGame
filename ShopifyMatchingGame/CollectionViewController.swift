@@ -11,6 +11,15 @@ import UIKit
 class CollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     var products = [Product]()
+    var flippedCells = [CollectionViewCell]()
+    var numberOfPairsToMatch = 2
+    var score = 0 {
+        didSet {
+            if score == products.count/2 {
+                userHasWon()
+            }
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,20 +64,47 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        UIView.transition(with: collectionView.cellForItem(at: indexPath)!, duration: 0.5, options: UIView.AnimationOptions.transitionFlipFromLeft, animations: { () -> Void in
-            let cell = collectionView.cellForItem(at: indexPath) as! CollectionViewCell
-            if cell.mysteryLabel.isHidden {
-                cell.mysteryLabel.isHidden = false
-                cell.image.isHidden = true
-                cell.title.isHidden = true
-            } else {
+        let cell = collectionView.cellForItem(at: indexPath) as! CollectionViewCell
+        if !cell.mysteryLabel.isHidden {
+            UIView.transition(with: cell, duration: 0.5, options: UIView.AnimationOptions.transitionFlipFromLeft, animations: {
                 cell.mysteryLabel.isHidden = true
                 cell.image.isHidden = false
                 cell.title.isHidden = false
+            }) { (finished: Bool) in
+                self.cellsHaveBeenFlipped(cell)
             }
-            //
-        }, completion: nil)
+        }
     }
+    
+    func cellsHaveBeenFlipped(_ cell: CollectionViewCell) {
+        flippedCells.append(cell)
+        if flippedCells.count == numberOfPairsToMatch {
+            if flippedCells[0].title.text == flippedCells[1].title.text {
+                for cell in flippedCells {
+                    cell.isUserInteractionEnabled = false
+                }
+                score += 1
+                flippedCells.removeAll()
+            } else {
+                for cell in flippedCells {
+                    UIView.transition(with: cell, duration: 0.5, options: UIView.AnimationOptions.transitionFlipFromLeft, animations: { () -> Void in
+                        cell.mysteryLabel.isHidden = false
+                        cell.image.isHidden = true
+                        cell.title.isHidden = true
+                    }) { (finished: Bool) in
+                        self.flippedCells.removeAll()
+                    }
+                }
+            }
+        }
+    }
+    
+    func userHasWon() {
+        let alert = UIAlertController(title: "Congratulations!", message: "You have won :D", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     
     func setupViews() {
         collectionView.backgroundColor = .white
@@ -87,7 +123,9 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
                 let jsonData = str.data(using: .utf8)!
                 let jsonResponse = try! JSONDecoder().decode(Response.self, from: jsonData)
                 DispatchQueue.main.async {
-                    self.products = jsonResponse.products
+                    var firstTenProducts = jsonResponse.products.prefix(10)
+                    firstTenProducts += firstTenProducts
+                    self.products = firstTenProducts.shuffled()
                     self.collectionView.reloadData()
                 }
             } catch let error as NSError {
