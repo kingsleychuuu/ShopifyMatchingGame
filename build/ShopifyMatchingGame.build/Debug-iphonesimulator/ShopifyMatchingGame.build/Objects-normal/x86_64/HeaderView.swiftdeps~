@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeaderView"
+provides-nominal:
+- "19ShopifyMatchingGame10HeaderViewC"
+provides-member:
+- ["19ShopifyMatchingGame10HeaderViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGRect"
+- !private "FloatLiteralType"
+- "HeaderView"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "StringLiteralType"
+- "UICollectionReusableView"
+- "UILabel"
+- "UnicodeScalarType"
+- !private "fatalError"
+depends-member:
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "centerYAnchor"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "rightAnchor"]
+- !private ["So15CALayerDelegateP", "scoreLabel"]
+- !private ["So15CALayerDelegateP", "setupConstraints"]
+- ["So15CALayerDelegateP", "text"]
+- ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s7CVarArgP", "UILabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "centerYAnchor"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "fatalError"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isActive"]
+- !private ["s7CVarArgP", "rightAnchor"]
+- !private ["s7CVarArgP", "scoreLabel"]
+- !private ["s7CVarArgP", "setupConstraints"]
+- ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s28CustomDebugStringConvertibleP", "UILabel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "centerYAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isActive"]
+- !private ["s28CustomDebugStringConvertibleP", "rightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "scoreLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "setupConstraints"]
+- ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s23CustomStringConvertibleP", "UILabel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "centerYAnchor"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isActive"]
+- !private ["s23CustomStringConvertibleP", "rightAnchor"]
+- !private ["s23CustomStringConvertibleP", "scoreLabel"]
+- !private ["s23CustomStringConvertibleP", "setupConstraints"]
+- ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- ["SQ", "UILabel"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "centerYAnchor"]
+- !private ["SQ", "constraint"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "init"]
+- !private ["SQ", "isActive"]
+- !private ["SQ", "rightAnchor"]
+- !private ["SQ", "scoreLabel"]
+- !private ["SQ", "setupConstraints"]
+- ["SQ", "text"]
+- ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- ["SH", "UILabel"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "centerYAnchor"]
+- !private ["SH", "constraint"]
+- !private ["SH", "fatalError"]
+- ["SH", "init"]
+- !private ["SH", "isActive"]
+- !private ["SH", "rightAnchor"]
+- !private ["SH", "scoreLabel"]
+- !private ["SH", "setupConstraints"]
+- ["SH", "text"]
+- ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- ["19ShopifyMatchingGame10HeaderViewC", "CGRect"]
+- ["19ShopifyMatchingGame10HeaderViewC", "NSCoder"]
+- ["19ShopifyMatchingGame10HeaderViewC", "UILabel"]
+- !private ["19ShopifyMatchingGame10HeaderViewC", "addSubview"]
+- !private ["19ShopifyMatchingGame10HeaderViewC", "centerYAnchor"]
+- ["19ShopifyMatchingGame10HeaderViewC", "deinit"]
+- !private ["19ShopifyMatchingGame10HeaderViewC", "fatalError"]
+- ["19ShopifyMatchingGame10HeaderViewC", "init"]
+- !private ["19ShopifyMatchingGame10HeaderViewC", "rightAnchor"]
+- ["19ShopifyMatchingGame10HeaderViewC", "scoreLabel"]
+- ["19ShopifyMatchingGame10HeaderViewC", "setupConstraints"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "centerYAnchor"]
+- !private ["So8NSCodingP", "fatalError"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "rightAnchor"]
+- !private ["So8NSCodingP", "scoreLabel"]
+- !private ["So8NSCodingP", "setupConstraints"]
+- ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So18NSLayoutConstraintC", "isActive"]
+- !private ["So19NSLayoutXAxisAnchorC", "constraint"]
+- !private ["So19NSLayoutYAxisAnchorC", "constraint"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "centerYAnchor"]
+- !private ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isActive"]
+- !private ["So8NSObjectC", "rightAnchor"]
+- ["So8NSObjectC", "scoreLabel"]
+- ["So8NSObjectC", "setupConstraints"]
+- ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "centerYAnchor"]
+- !private ["So8NSObjectP", "constraint"]
+- !private ["So8NSObjectP", "fatalError"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isActive"]
+- !private ["So8NSObjectP", "rightAnchor"]
+- !private ["So8NSObjectP", "scoreLabel"]
+- !private ["So8NSObjectP", "setupConstraints"]
+- ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "centerYAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "rightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "scoreLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "setupConstraints"]
+- ["So29UIAccessibilityIdentificationP", "text"]
+- ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "centerYAnchor"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "rightAnchor"]
+- !private ["So12UIAppearanceP", "scoreLabel"]
+- !private ["So12UIAppearanceP", "setupConstraints"]
+- ["So12UIAppearanceP", "text"]
+- ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "centerYAnchor"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "rightAnchor"]
+- !private ["So21UIAppearanceContainerP", "scoreLabel"]
+- !private ["So21UIAppearanceContainerP", "setupConstraints"]
+- ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So24UICollectionReusableViewC", "CGRect"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- ["So24UICollectionReusableViewC", ""]
+- !private ["So24UICollectionReusableViewC", "addSubview"]
+- !private ["So24UICollectionReusableViewC", "centerYAnchor"]
+- !private ["So24UICollectionReusableViewC", "fatalError"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "rightAnchor"]
+- ["So24UICollectionReusableViewC", "scoreLabel"]
+- ["So24UICollectionReusableViewC", "setupConstraints"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "centerYAnchor"]
+- ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "rightAnchor"]
+- ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So30UIContentSizeCategoryAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "centerYAnchor"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "rightAnchor"]
+- !private ["So17UICoordinateSpaceP", "scoreLabel"]
+- !private ["So17UICoordinateSpaceP", "setupConstraints"]
+- ["So17UICoordinateSpaceP", "text"]
+- ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "centerYAnchor"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "rightAnchor"]
+- !private ["So13UIDynamicItemP", "scoreLabel"]
+- !private ["So13UIDynamicItemP", "setupConstraints"]
+- ["So13UIDynamicItemP", "text"]
+- ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "centerYAnchor"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "rightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "scoreLabel"]
+- !private ["So18UIFocusEnvironmentP", "setupConstraints"]
+- ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "centerYAnchor"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "rightAnchor"]
+- !private ["So11UIFocusItemP", "scoreLabel"]
+- !private ["So11UIFocusItemP", "setupConstraints"]
+- ["So11UIFocusItemP", "text"]
+- ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "centerYAnchor"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "rightAnchor"]
+- !private ["So20UIFocusItemContainerP", "scoreLabel"]
+- !private ["So20UIFocusItemContainerP", "setupConstraints"]
+- ["So20UIFocusItemContainerP", "text"]
+- ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So7UILabelC", "centerYAnchor"]
+- ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "rightAnchor"]
+- ["So7UILabelC", "text"]
+- ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerYAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "scoreLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupConstraints"]
+- ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "centerYAnchor"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "rightAnchor"]
+- ["So11UIResponderC", "scoreLabel"]
+- ["So11UIResponderC", "setupConstraints"]
+- ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "centerYAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "rightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "scoreLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "setupConstraints"]
+- ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "centerYAnchor"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "rightAnchor"]
+- !private ["So18UITraitEnvironmentP", "scoreLabel"]
+- !private ["So18UITraitEnvironmentP", "setupConstraints"]
+- ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "centerYAnchor"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "rightAnchor"]
+- !private ["So23UIUserActivityRestoringP", "scoreLabel"]
+- !private ["So23UIUserActivityRestoringP", "setupConstraints"]
+- ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "centerYAnchor"]
+- !private ["So6UIViewC", "fatalError"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "rightAnchor"]
+- ["So6UIViewC", "scoreLabel"]
+- ["So6UIViewC", "setupConstraints"]
+- ["So6UIViewC", "text"]
+- ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerYAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scoreLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupConstraints"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "UILabel"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "centerYAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rightAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "scoreLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setupConstraints"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "19ShopifyMatchingGame10HeaderViewC"
+- "So8NSCodingP"
+- !private "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So19NSLayoutXAxisAnchorC"
+- !private "So19NSLayoutYAxisAnchorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5ac198f00783828404ac3193d25e6ded"

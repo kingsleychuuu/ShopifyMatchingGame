@@ -11,13 +11,24 @@ import UIKit
 class CollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     var products = [Product]()
+    var totalCells = [Product]()
     var flippedCells = [CollectionViewCell]()
+    var numberOfColumns = 4
     var numberOfPairsToMatch = 2
-    var score = 0 {
+    var numberOfTotalCards = 10
+    var scoreCount = 0 {
         didSet {
-            if score == products.count/2 {
+            let indexPath = IndexPath(row: 0, section: 0)
+            configureHeader(view: collectionView.supplementaryView(forElementKind: UICollectionView.elementKindSectionHeader, at: indexPath) as! HeaderView)
+            if scoreCount == products.count/2 {
                 userHasWon()
             }
+        }
+    }
+    var flipCount = 0 {
+        didSet {
+            let indexPath = IndexPath(row: 0, section: 0)
+            configureHeader(view: collectionView.supplementaryView(forElementKind: UICollectionView.elementKindSectionHeader, at: indexPath) as! HeaderView)
         }
     }
 
@@ -51,7 +62,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = view.bounds.width/5
+        let width = view.bounds.width/CGFloat(numberOfColumns+1)
         return CGSize(width: width, height: width*1.5)
     }
     
@@ -61,6 +72,21 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 20
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        return CGSize(width: view.bounds.width, height: 40)
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        guard let view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "headerID", for: indexPath) as? HeaderView else { fatalError("u dun goofed")}
+            configureHeader(view: view)
+        return view
+    }
+    
+    func configureHeader(view: HeaderView) {
+        view.scoreLabel.text = "Score: \(scoreCount)"
+        view.flipLabel.text = "Flips: \(flipCount)"
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -79,11 +105,12 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     func cellsHaveBeenFlipped(_ cell: CollectionViewCell) {
         flippedCells.append(cell)
         if flippedCells.count == numberOfPairsToMatch {
+            flipCount += 1
             if flippedCells[0].title.text == flippedCells[1].title.text {
                 for cell in flippedCells {
                     cell.isUserInteractionEnabled = false
                 }
-                score += 1
+                scoreCount += 1
                 flippedCells.removeAll()
             } else {
                 for cell in flippedCells {
@@ -105,13 +132,39 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         self.present(alert, animated: true, completion: nil)
     }
     
+    @objc func resetGame() {
+        for cell in (collectionView.visibleCells as? [CollectionViewCell])! {
+            cell.mysteryLabel.isHidden = false
+            cell.image.isHidden = true
+            cell.title.isHidden = true
+            cell.isUserInteractionEnabled = true
+        }
+        scoreCount = 0
+        flipCount = 0
+        flippedCells.removeAll()
+        var newProducts = totalCells.shuffled().prefix(numberOfTotalCards/2)
+        newProducts += newProducts
+        products = newProducts.shuffled()
+        collectionView.reloadData()
+    }
+    
+    func setupCardGrid(_ json: Response) {
+        totalCells = json.products.shuffled()
+        var firstTenProducts = totalCells.prefix(numberOfTotalCards/2)
+        firstTenProducts += firstTenProducts
+        products = firstTenProducts.shuffled()
+        collectionView.reloadData()
+    }
     
     func setupViews() {
+        title = "Matching Game"
         collectionView.backgroundColor = .white
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Reset", style: .plain, target: self, action: #selector(resetGame))
     }
     
     func setupCellRegistration() {
         collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: "cellID")
+        collectionView.register(HeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "headerID")
     }
     
     func setupJSONData() {
@@ -123,16 +176,13 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
                 let jsonData = str.data(using: .utf8)!
                 let jsonResponse = try! JSONDecoder().decode(Response.self, from: jsonData)
                 DispatchQueue.main.async {
-                    var firstTenProducts = jsonResponse.products.prefix(10)
-                    firstTenProducts += firstTenProducts
-                    self.products = firstTenProducts.shuffled()
-                    self.collectionView.reloadData()
+                    self.setupCardGrid(jsonResponse)
                 }
-            } catch let error as NSError {
-                print("Failed to load: \(error.localizedDescription)")
             }
         }
         task.resume()
     }
+    
+    
 }
 

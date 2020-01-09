@@ -10,19 +10,14 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "/"
 - "AssignmentPrecedence"
-- "BooleanLiteralType"
 - "CGRect"
 - "CollectionViewCell"
-- "FloatLiteralType"
-- "IntegerLiteralType"
 - "NSCoder"
-- "StringLiteralType"
 - "UICollectionViewCell"
 - "UIColor"
 - "UIFont"
 - "UIImageView"
 - "UILabel"
-- "UnicodeScalarType"
 - !private "fatalError"
 depends-member:
 - ["So7CALayerC", "borderColor"]
@@ -115,7 +110,6 @@ depends-member:
 - !private ["19ShopifyMatchingGame18CollectionViewCellC", "bottomAnchor"]
 - !private ["19ShopifyMatchingGame18CollectionViewCellC", "centerXAnchor"]
 - !private ["19ShopifyMatchingGame18CollectionViewCellC", "centerYAnchor"]
-- ["19ShopifyMatchingGame18CollectionViewCellC", "deinit"]
 - !private ["19ShopifyMatchingGame18CollectionViewCellC", "fatalError"]
 - ["19ShopifyMatchingGame18CollectionViewCellC", "image"]
 - ["19ShopifyMatchingGame18CollectionViewCellC", "init"]
